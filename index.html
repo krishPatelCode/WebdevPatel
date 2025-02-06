@@ -3,14 +3,15 @@
 <html>
 <head>
   <div class = "mainTitle">
-<h1 style="text-align:center; color:rgb(180, 164, 143)"> Krish Patel</h1>
+<h1 style="text-align:center; color:rgba(230, 124, 18, 0.869)"> Krish Patel</h1>
 </div>
 <br/>
-<hr/>
+<hr class="Hozline2"/>
 <br/>
 </head>
+<span>
 <h3 id = "menu">MENU</h3>
-
+</span>
 <ol>
 
 <li><a href="#menu">menu</a> <br/></li>
@@ -34,37 +35,32 @@
 </ol>
 
 <br/>
-<hr/>
+<hr class ="Hozline1"/>
 
 
 <body>
-  <div class = "h3_headings">
-    <h3 id = "basicInfoSection">Basic Info</h3>
-  </div>
+    <h3 id = "basicInfoSection" >Basic Info</h3>
     <p>Hello everyone my name is Krish Patel. I am a senior at SJU with a computer science major and no defined minor. I am from long Island New York but at the moment I live near campus. This website is designed for people to get to know me, Enjoy! </p>
   
 <img src = "profile_pic.jpg"
 width="150"
 height="300">
 <br/>
-<hr/>
-
+<hr class ="Hozline1"/>
 
 <h3 id = "Education Summary">Education Summary</h3>
 <p>
   I graduated from Herricks High School in 2021 with a highschool diploma. By the end of this semester I will be graduating from SJU with a bachelors degree in Science. 
 </p>
 <br/>
-<hr/>
-
+<hr class ="Hozline1"/>
 
 <h3 id = "Work Experience">Work Experience</h3>
 <p>
   I have much Experience working in a kitchen. I worked for my parents at a sandwhich store from the ages of 12 to 17. For a year and a half during college I worked at a pretzel shop to help pay for my tuition. Currently I work at a STEM learning center for students K-8.
 </p>
 <br/>
-<hr/>
-
+<hr class ="Hozline1"/>
 
 <h3 id = "Programming Skills">Programming Skills</h3>
 <p>
@@ -100,24 +96,25 @@ height="300">
 
 
 <br/>
-<hr/>
-
+<hr class ="Hozline1"/>
 
 <h3 id = "General Interest">General Interest</h3>
 <p>
   I have many interests outside of school. I love playing video games
 </p>
 <br/>
-<hr/>
+<hr class ="Hozline1"/>
 
 
 <h3 id = "Favorite media">Favorite media</h3>
 <table>
+  
   <tr>
     
     <th>Favorite</th>
     <th>Name</th>
     <th>Author</th>
+  
   </tr>
   <tr>
     <td>Movie</td>
@@ -146,7 +143,7 @@ height="300">
   </tr>
 </table>
 <br/>
-<hr/>
+<hr class ="Hozline1"/>
 
 
 <h3 id = "Favorite Websites">Favorite Websites</h3>
@@ -157,7 +154,7 @@ height="300">
 <a href = "https://youtube.com/" target="_blank" > Link to youtube?</a><br>
 <a href = "https://www.nytimes.com/" target="_blank" > Want to read the news?</a><br>
 <br/>
-<hr/>
+<hr class ="Hozline1"/>
 
 
 <h3 id = "My Projects">My Projects</h3>
@@ -166,7 +163,7 @@ height="300">
 </p>
 <a href = "index.html"> Project 1</a>
 <br/>
-<hr/>
+<hr class ="Hozline1"/>
 
 <br/>
 <form>
@@ -179,27 +176,46 @@ height="300">
     font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  
+  }
+  tr:hover {
+    background-color: #920d0d;
+    color: aliceblue;
+     
   }
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #920d0d;
   text-align: left;
   padding: 8px;
   }
-  br{
-    border: 20px;
+  tr{
+    color: rgb(160, 89, 117);
   }
+  
   .mainTitle{
     border: 5px outset rgb(85, 235, 190);
   background-color: lightblue;
   text-align: center;
   }
-  .h3_heading{
-    border: rgb(133, 199, 222);
-    border-bottom: rgb(57, 57, 238);
-    border-top: rgb(57, 57, 238);
-
+  .Hozline1{
+     
+     border: 2px solid rgba(131, 214, 189, 0.515);
+  }
+  .Hozline2{
+     
+     border: 5px dotted rgba(155, 137, 169, 0.515);
+  }
+  h3{
+    
+    color: rgb(199, 120, 40);
+    border: 2px rgb(196, 21, 21);
+  top: 10px;
+  left: 10px;
+  padding: 10px;
   }
 
+  
+  
   
 </style>
 </html>
