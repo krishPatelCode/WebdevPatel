@@ -84,19 +84,26 @@
   @media print {
     .PhotoRows{
       filter: blur(10px);
+      
     }
+    p{
+      text-decoration: line-through;
+    }
+    h3{
+      text-decoration: line-through;
+    }
+    
   }
   @media (max-width:740px) and (max-height:500px){
     body{
     background-color: rgba(123, 178, 156, 0.750);
     }
     p{
-      display: none;
+      color:white
     }
+
   }
-  @media screen {
-    
-  }
+  
 
  
 
