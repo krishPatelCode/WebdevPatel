@@ -1,0 +1,106 @@
+
+  table{
+    font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+  }
+  a{
+    
+    color: rgb(16, 130, 187);
+    
+  }
+  a:hover{
+    color: white;
+    background-color:  rgb(16, 130, 187);
+    
+  }
+  tr:hover {
+    background-color: #920d0d;
+    color: aliceblue;
+     
+  }
+  td, th {
+    border: 1px solid #920d0d;
+  text-align: left;
+  padding: 8px;
+  }
+  tr{
+    color: rgb(160, 89, 117);
+  }
+  
+  .mainTitle{
+    border: 5px outset rgb(85, 235, 190);
+  background-color: lightblue;
+  text-align: center;
+  }
+  .Hozline1{
+     
+     border: 2px solid rgba(131, 214, 189, 0.515);
+  }
+  .Hozline2{
+     
+     border: 5px dotted rgba(155, 137, 169, 0.515);
+  }
+  h3{
+    color: rgb(199, 120, 40);
+    border: 2px solid rgb(196, 21, 21);
+    border-color: #920d0d;
+    background-color: rgb(233, 169, 210);
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    
+  }
+  br{
+    line-height: 20px;
+  }
+  p{
+    border: 1px solid rgb(180, 18, 18);
+  padding: 10px;
+  width: 500px;
+  height: 100px;
+  text-align: justify;
+  border-color: pink;
+  }
+  #blurimg{
+    filter: blur(2px);
+
+  }
+  #Grayscaleimg{
+    filter: grayscale(100%);
+  }
+  #saturateimg{
+    filter: hue-rotate(90deg)
+  }
+  .PhotoRows{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  @media print {
+    .PhotoRows{
+      filter: blur(10px);
+    }
+  }
+  @media (max-width:740px) and (max-height:500px){
+    body{
+    background-color: rgba(123, 178, 156, 0.750);
+    }
+    p{
+      display: none;
+    }
+  }
+  @media screen {
+    
+  }
+
+ 
+
+  
+  
+  
+
